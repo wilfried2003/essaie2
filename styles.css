@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #0000ff, #87cefa); /* Dégradé de bleu à bleu ciel */
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 60px;
+    font-size: 3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent pour le formulaire */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #0000ff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #87cefa;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent noir */
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent noir */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+}
+
+nav ul li a:hover {
+    color: #87cefa; /* Changement de couleur au survol */
+}
